@@ -1,0 +1,5 @@
+request_type : GET
+general_header : 12/12/2012
+Request_Headers : Accept-Charset
+Entity_Header : Expires
+Message_Body : Otinanaivre

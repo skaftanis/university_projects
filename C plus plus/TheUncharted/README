@@ -1,0 +1,22 @@
+******************************************
+
+Project Name: TheUncharted
+Author: Spiros Kaftanis
+AM: 23 5542
+Date: 21/01/2014
+email1: skaftanis@gmail.com
+email2: kaftanis@ceid.upatras.gr
+
+******************************************
+
+Εξαρτήσεις:
+
+libGLEW 1.5 για fedora
+libGLEW 1.7 για debian/ubuntu
+zenity - συνήθως προεγκατεστημένο σε όλες τις διανομές
+
+Περισσότερες πληροφορίες για τις εξαρτήσεις και τη διαδικασία
+εκτέλεσης  στο Report
+
+
+

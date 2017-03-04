@@ -1,0 +1,21 @@
+#!/bin/bash
+
+make #compile εσωτερικού gameserver
+cd .. #μεταφορά στον πίσω κατάλογο
+make #compile όλων των αρχείων
+
+COUNTER=0 #μεταβλητή μετρητή
+LIMIT=3 #μεταβλητή ορίου
+
+# ο χρήστης του script πρέπει να ξεκινήσει έναν server με
+# ΠΡΟΣΟΧΗ: πρέπει να τρέξει ο server του testing εδώ! (απανεργοποίηση messanger στο test).
+# για παράδειγμα
+#  ./gameserver -p 2 -i playerInventory1 -q 50 
+# έτσι ώστε να μπορούν να συνδεθούν οι clients σε αυτόν. 
+
+#δημιουργία clients
+while [ $COUNTER -lt $LIMIT ]; do  
+	./player -n spiros -i playerInventory1 localhost &
+	sleep 2;
+	let COUNTER+=1	
+done

@@ -1,0 +1,15 @@
+#define TYPE 1
+#define GENERAL_HEADER 2
+#define REQUEST_HEADERS 3
+#define ENTITY_HEADER 4
+#define MESSAGE_BODY 5
+
+
+#define GENERAL_HEADER_VALUE 6
+#define REQUEST_HEADER_VALUE 7
+#define ENTITY_HEADER_VALUE 8
+
+
+#define COLON 9
+#define BODY_VALUE 10
+#define TYPE_VALUE 11
