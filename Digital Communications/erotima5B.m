@@ -27,7 +27,7 @@ startAlphabet=alphabet;
 first=combnk(startAlphabet,2);
 second=fliplr(combnk(startAlphabet,2));
 final=[first;second];
-for i=1:26 
+for i=1:length(diffSymbols)
     final=[final;[i,i]]; 
 end
 
